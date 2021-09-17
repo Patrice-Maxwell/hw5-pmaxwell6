@@ -1,0 +1,15 @@
+--2021-09-16 10:29:46--  https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FS%2Fpv-target-images%2F331b7c76cdf53cacc3f4f96e4d97191812ddcd57b7c6608ac6c9da480ffd51b6._RI_V_TTW_.jpg
+Resolving www.google.com (www.google.com)... 172.253.122.103, 172.253.122.106, 172.253.122.147, ...
+Connecting to www.google.com (www.google.com)|172.253.122.103|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.google.com/imghp [following]
+--2021-09-16 10:29:46--  https://www.google.com/imghp
+Reusing existing connection to www.google.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘imgres?imgurl=https:%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FS%2Fpv-target-images%2F331b7c76cdf53cacc3f4f96e4d97191812ddcd57b7c6608ac6c9da480ffd51b6._RI_V_TTW_.jpg’
+
+           imgres?imgu     [<=>                          ]       0  --.-KB/s               imgres?imgurl=https:%2     [ <=>                         ]  13.47K  --.-KB/s    in 0s      
+
+2021-09-16 10:29:46 (71.1 MB/s) - ‘imgres?imgurl=https:%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FS%2Fpv-target-images%2F331b7c76cdf53cacc3f4f96e4d97191812ddcd57b7c6608ac6c9da480ffd51b6._RI_V_TTW_.jpg’ saved [13796]
+

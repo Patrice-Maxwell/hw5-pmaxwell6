@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="static/style.css">
+    </head>
+    <body> 
+        <h1>Hello {{name}} ,</h1>
+        <h2>Your favorite shows are :</h2>
+
+        <ol>
+            
+             {%for i in range(0 , len)%}
+                <div style="display:grid ; grid-column: auto;">
+                    <div style="grid-column: 1">
+                        {%if 'Doctor Who' in shows[i] %}
+                            <li><p>{{shows[i]}}</p></li>
+                         {% else %}
+                                
+                            <li>{{shows[i]}}</li>
+                        {% endif %}
+                    </div>
+                    <div style="grid-column: 2; vertical-align: middle;">
+                        <img src={{cards[i]}} height="275" width="200" >
+
+                    </div>
+                </div>
+            {%endfor%}
+        </ol>
+
+    </body>
+</html>
